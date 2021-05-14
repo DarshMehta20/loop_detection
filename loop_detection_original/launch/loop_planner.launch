@@ -1,0 +1,6 @@
+<launch>
+
+<rosparam file="$(find loop_detection_original)/parameters/loop_planner_param.yaml" />
+<node name="loop_planner" pkg="loop_detection_original" type="loop_planner" output="screen"/>
+
+</launch>

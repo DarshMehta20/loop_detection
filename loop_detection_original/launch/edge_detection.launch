@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<rosparam file="$(find loop_detection_original)/parameters/edge_detection_param.yaml" />
+<node name="edge_detection" pkg="loop_detection_original" type="edge_extraction" output="screen"/>
+
+
+</launch>
+
